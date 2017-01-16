@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Motivate Meme">
+	<meta name="keywords" content="motivate">
+	<meta name="author" content="mkhairul">
+	<title>Get motivated or not, whatever.</title>
+	
+	<link rel="stylesheet" type="text/css" href="lib/font-awesome-4.3.0/css/font-awesome.min.css">
+  
+	<link rel="shortcut icon" type="image/x-icon" href="images/nc-fav.ico">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" type="text/css" href="css/star-animation.css">
+
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/structure.css">
+	<link rel="stylesheet" type="text/css" href="css/main-style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+</head>
+<body class="single-image star-animation">
+	
+	<div class="page-loader-wrapper">
+		<div class="loader">
+			
+		</div>
+	</div>
+
+	<!-- [ MAIN-WRAPPER ] -->
+	<div id="main-wrapper">
+
+		<!-- [ PAGE-SECTION ] -->
+		<main id="main" class="background" data-image="images/bg1.jpg">
+
+			<!-- STAR ANIMATION -->
+			<div class="bg-animation">
+				<div id='stars'></div>
+				<div id='stars2'></div>
+				<div id='stars3'></div>
+				<div id='stars4'></div>
+			</div>
+
+			<!-- [ BACKGROUND-OVERLAY ] -->
+			<div class="overlay" style="background-color: rgba(0,0,0,0.35)"></div>
+			<!-- [ BACKGROUND-OVERLAY END ] -->
+
+			<div class="nc-content-section index nc-active vhm">
+
+				<!-- [ LEFT ] -->
+				<div id="nc-left-cell" class="nc-cell vhm layout-4">
+					<div class="inner-container vhm-item">
+						
+						<!-- [ LOGO ] -->
+						<div class="logo ac anim fadeInUp s01 delay-0-5s">
+							<div class="logo-wrp">
+						    <p>Get Motivated, Inspired or whatever</p>
+							</div>
+						</div>
+						<!-- [ LOGO END ] -->
+            
+            
+            <div class="center">
+              <input type="file" style="display: none" id="imageLoader" name="imageLoader"/>
+              <button id="loadImage" class="btn btn-primary" type="button">Load Image</button>
+            </div>
+
+						
+
+						<!-- [ REGULAR-BOX ] -->
+						<div id="reguar-box">
+
+							<!-- [ SUBSCRIBE ] -->
+							<div class="subscribe ac anim fadeInUp s01 delay-0-8s">
+								<form id="notifyMe" class="subscription-form clear form-field-wrapper" method="POST" action="notify-me.php">
+									<input type="text" class="form-control" name="text" placeholder="Your Text" v-model="text">
+                  <input type="text" class="form-control" name="name" placeholder="Your Name" v-model="name">
+                  <input type="text" class="form-control" name="title" placeholder="Your Title" v-model="title">
+								</form>
+							</div>
+							<!-- [ SUBSCRIBE END ] -->
+
+							<!-- [ COPYRIGHT ] -->
+							<div class="copyrights ac anim fadeInUp s01 delay-1s">
+								Created by <em>mkhairul</em>
+							</div>
+							<!-- [ COPYRIGHT END ] -->
+
+						</div>
+						<!-- [ REGULAR-BOX END ] -->
+						
+
+					</div>
+				</div>
+				<!-- [ LEFT END ] -->
+
+				<!-- [ RIGHT ] -->
+				<div id="nc-right-cell" class="nc-cell vhm">
+					
+					<!-- [ HOME-PAGE ] -->
+					<div id="home-page" class="page-wrapper vhm-item active-home anim s01">
+						<div class="container">
+
+							<!-- [ MOBILE-CLOCK ] -->
+							<div id="mobile-clock" class="layout-4">
+								
+							</div>
+							<!-- [ MOBILE-CLOCK END ] -->
+              
+              <div class="image-area" id="motivate">
+                  <div class="side overpass">
+                    <div class="main-text ">{{ text }}</div>
+                    <div class="name-text">{{ name }}</div>
+                    <div class="title-text">{{ title }}</div>
+                  </div>
+              </div>
+              <div id="download">
+                <button class="btn btn-primary" type="button">Download</button>
+              </div>
+
+							<!-- [ MOBILE-BOX ] -->
+							<div id="mobile-box">
+								
+							</div>
+							<!-- [ MOBILE-BOX END ] -->
+
+						</div>
+					</div>
+					<!-- [ HOME-PAGE END ] -->
+
+					<!-- [ AJAX-PAGE ] -->
+					<div id="ajax-page" class="page-wrapper vhm-item layout4">
+						
+					</div>
+					<!-- [ AJAX-PAGE END ] -->
+
+				</div>
+				<!-- [ RIGHT END ] -->
+
+			</div>
+
+			<!-- [ OC-CLICK OVERLAY ] -->
+			<div class="nc-overlay"></div>
+			<!-- [ OC-CLICK OVERLAY END ] -->
+
+		</main>
+		<!-- [ PAGE-SECTION END ] -->
+
+		
+
+	</div>
+	<!-- [ MAIN-WRAPPER END ] -->
+
+	<!-- [ DEFAULT SCRIPT ] -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- [ PLUGIN SCRIPT ] -->
+	<script src="js/plugins.js"></script>
+
+	<!-- [ COMMON SCRIPT ] -->
+	<script src="js/common.js"></script>
+	<script src="js/responsive.js"></script>
+  <script src="js/html2canvas.js"></script>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script>
+    $(document).ready(function(){
+      
+      var app6 = new Vue({
+        el: '#main',
+        data: {
+          text: '',
+          name: '',
+          title: ''
+        }
+      })
+      
+      $('input[name="text"]').on('keyup', function(){
+        if($(this).val() === ''){
+          $('.main-text').hide();
+        }else{
+          $('.main-text').show();
+        }
+      });
+      
+      $('#loadImage').on('click', function(){
+        console.log('woot');
+        $('#imageLoader').trigger('click');
+      });
+      
+      $('#download button').on('click', function(){
+        html2canvas(document.getElementById('motivate'), {
+          onrendered: function(canvas) {
+            var link = document.createElement('a');
+            link.download = 'motivate.jpeg';
+            link.href = canvas.toDataURL();
+            link.click();
+          }
+        });
+      });
+      
+      var imageLoader = document.getElementById('imageLoader');
+      imageLoader.addEventListener('change', handleImage, false);
+      
+      function handleImage(e){
+          var reader = new FileReader();
+          reader.onload = function(event){
+
+              console.log('image loaded');
+              console.log($('.image-area'));
+              $('.image-area').css('background', 'url('+event.target.result+') no-repeat center center');
+              $('.image-area').css('background-size', 'cover');
+              $('#download').show();
+              $('.main-text').show();
+          }
+          reader.readAsDataURL(e.target.files[0]);     
+      }
+
+    });
+  </script>
+</body>
+</html>

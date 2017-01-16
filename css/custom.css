@@ -1,0 +1,63 @@
+.center{
+  text-align: center;
+}
+
+.fira{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+.overpass{
+  font-family: 'Overpass', sans-serif;
+}
+
+.image-area{
+  width: 50%;
+  height: 500px;
+  background-color: #000;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image-area .side{
+  width: 45%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.6
+}
+
+
+.main-text{
+  padding: 25% 20px 15px;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  color: #fff;
+  display: none;
+}
+
+.main-text:before{
+  content: '" ';
+}
+
+.main-text:after{
+  content: ' "';
+}
+
+.name-text{
+  padding-top: 20px;
+  color: #f29245;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.title-text{
+  padding-top: 2px;
+  color: #f29245;
+  font-size: 0.7em;
+}
+
+#download{
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
