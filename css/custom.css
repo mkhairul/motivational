@@ -1,13 +1,15 @@
+@font-face{
+  font-family: "Din";
+  src: url(din-light-webfont.ttf) format("truetype");
+}
+
 .center{
   text-align: center;
 }
 
-.fira{
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-}
-.overpass{
-  font-family: 'Overpass', sans-serif;
-}
+.fira{ font-family: 'Fira Sans Extra Condensed', sans-serif; }
+.overpass{ font-family: 'Overpass', sans-serif; }
+.din{ font-family: 'Din', sans-serif; }
 
 .image-area{
   width: 65%;
