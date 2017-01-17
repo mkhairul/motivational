@@ -34,14 +34,6 @@
   display: none;
 }
 
-.main-text:before{
-  content: '" ';
-}
-
-.main-text:after{
-  content: ' "';
-}
-
 .name-text{
   padding-top: 20px;
   color: #f29245;
