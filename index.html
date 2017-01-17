@@ -31,6 +31,7 @@
 	<link rel="stylesheet" type="text/css" href="css/structure.css">
 	<link rel="stylesheet" type="text/css" href="css/main-style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/opentip.css">
   <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 <body class="single-image star-animation">
@@ -189,6 +190,7 @@
 	<script src="js/responsive.js"></script>
   <script src="js/html2canvas.js"></script>
   <script src="js/interact.min.js"></script>
+  <script src="js/opentip-jquery.min.js"></script>
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
   <script>
     $(document).ready(function(){
@@ -232,6 +234,9 @@
       function handleImage(e){
           var reader = new FileReader();
           reader.onload = function(event){
+            
+              var side = $(".side");
+              new Opentip(side, "This box is resizable", { target: true, style: 'alert', tipJoint: "top", showOn: "creation", hideOn: "click" });
 
               console.log('image loaded');
               console.log($('.image-area'));
