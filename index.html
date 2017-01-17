@@ -95,6 +95,21 @@
 								</form>
 							</div>
 							<!-- [ SUBSCRIBE END ] -->
+              
+              <div class="main-position">
+                <div class="col-md-6">
+                  <label>
+                    <input type="radio" name="pos" value="left" checked>
+                    Left
+                  </label>
+                </div>
+                <div class="col-md-6">
+                  <label>
+                    <input type="radio" name="pos" value="right">
+                    Right
+                  </label>
+                </div>
+              </div>
 
 							<!-- [ COPYRIGHT ] -->
 							<div class="copyrights ac anim fadeInUp s01 delay-1s">
@@ -230,6 +245,10 @@
           }
           reader.readAsDataURL(e.target.files[0]);     
       }
+      
+      $('input[name="pos"]').on('click', function(){
+        $('.image-area .side').css('float', $(this).val());
+      })
 
     });
     

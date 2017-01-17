@@ -24,7 +24,7 @@
   width: 45%;
   height: 100%;
   background-color: #000;
-  opacity: 0.6
+  opacity: 0.6;
 }
 
 
@@ -56,3 +56,10 @@
   margin-top: 20px;
   text-align: center;
 }
+
+.main-position{
+  vertical-align: middle;
+  text-align:center;
+  margin-top: 20px;
+}
+.main-position input{ vertical-align: middle; margin: 0; }
